@@ -1,11 +1,16 @@
 import React from 'react';
+import Header from "../components/Header";
+import Form from "../components/Form"
+import '../App.css';
 
-const Contact = () => {
+
+export default function Contact () {
     return (
-        <div className="contact">
-            {}
+        <div className="contact-container">
+            <Header pageTitle={"Contact"} />
+            <div className="contact-contents">
+                 <Form />
+            </div>
         </div>
     );
 };
-
-export default Contact;
