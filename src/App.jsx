@@ -1,15 +1,16 @@
 import React from 'react';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import ContentSection from './components/ContentSection';
+import { Outlet } from 'react-router-dom'
 import Footer from './components/Footer';
+import './App.css'
 
 function App() {
     return (
-        <div classname="App">
-            <Header />
+        <div className="App">
             <Navigation />
-            <ContentSection />
+            <Header />
+            <Outlet />
             <Footer />
         </div>
     );
