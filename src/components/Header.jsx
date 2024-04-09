@@ -1,4 +1,5 @@
 import '../App.css';
+import Navigation from './Navigation';
 
 export default function Header() {
     return (
@@ -6,6 +7,7 @@ export default function Header() {
         <div>
             <h1 className="name">Kendall Henderson</h1>
             <p className="title">Full Stack Developer</p>
+            <Navigation />
         </div>
     </header>
     );

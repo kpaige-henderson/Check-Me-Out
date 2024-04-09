@@ -7,16 +7,16 @@ export default function Navigation() {
         <div>
             <ul>
                 <li> 
-                    <NavLink to="/"> About </NavLink>
+                    <NavLink className="nav" to="/"> About </NavLink>
                 </li>
                 <li> 
-                     <NavLink to="/resume"> Resume </NavLink>
+                     <NavLink className="nav" to="/resume"> Resume </NavLink>
                 </li>
                 <li> 
-                     <NavLink to="/portfolio"> Portfolio </NavLink>
+                     <NavLink className="nav" to="/portfolio"> Portfolio </NavLink>
                 </li>
                 <li> 
-                    <NavLink to="/contact"> Contact </NavLink>
+                    <NavLink className="nav" to="/contact"> Contact </NavLink>
                 </li>
             </ul>
         </div>

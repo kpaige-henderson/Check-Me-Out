@@ -1,47 +1,146 @@
-.footer-container{
+body {
+    background-color: #556538;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
+.footer-container{
+    border-radius: 8px;
+    background-color: #DDD0C8;
+    box-shadow: -7px 8px 7px 0px #01110182;
+    flex-shrink: 0;
 }
 
 .header{
-
+    border-radius: 8px;
+    background-color: #DDD0C8;
+    margin: 1vw;
+    box-shadow: -7px 8px 7px 0px #01110182;
 }
 
 .name{
-
+    color:rgb(0, 0, 0);
+    padding: 8px;
+    font-size: 40px;
+    font-family: "Playfair Display";
+    font-weight: 600;
+    text-decoration: underline double;
+    text-align: center;
 }
 
 .title{
+    color:rgb(0, 0, 0);
+    padding: 8px;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 600;
+    text-decoration: underline double;
+    text-align: center;
+}
 
+.about{
+    background-color: #757370;
+    margin: 1vw;
+    box-shadow: -7px 8px 7px 0px #01110182;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-size: 14px;
 }
 
 .nav-container{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+    align-items: center;
+}
 
+.headshot{
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.nav{
+    display: flex;
+    color:rgb(0, 0, 0);
+    font-size: larger;
+}
+
+.nav:hover {
+    color:bisque;
 }
 
 .contact-container{
-
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 100px;
+    justify-content:center;
+    font-family: "Poppins";
+    margin-bottom: 0px;
+    font-size: 30px;
 }
 
-.contact-contents{
+.submit-btn{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        font-family: "Poppins";
+        font-weight: 600;
+        border-radius: 5px;
+        size: 50px;
+}
 
+.box {
+    margin-bottom: 10px;
+    margin-left: 8px;
+    width: (70%); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
 }
 
 .project-container{
-
+    box-shadow: -7px 8px 7px 0px #01110182;
+    border-radius: 8px;
+    padding: 10px;
 }
 
-.resume{
-    
-}
 
 .project-image{
-
+    width: 950px;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .project.link{
-
+    color:rgb(0, 0, 0);
+    padding: 8px;
+    font-size: 40px;
+    font-family: "Playfair Display";
+    font-weight: 600;
+    text-decoration: underline double;
+    text-align: center;
 }
 
 .icon{
-    
+width: 50px;
+height: auto;
+justify-content: center;
+padding: 10px;
+border-radius: 30px;
 }
+
+@media screen and (max-width: 768px) {
+
+    
+  }
