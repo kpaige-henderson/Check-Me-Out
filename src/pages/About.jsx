@@ -1,11 +1,9 @@
 import React from 'react';
-import Headshot from '../public/IMG_1300.jpeg'
 
 const About = () => {
     return (
         <div className="about">
-            <img src={Headshot} alt="headshot" className="headshot" />
-            {`Kendall Henderson has spent her career as a teacher by day and teacher by night for many years. She has
+                {`Kendall Henderson has spent her career as a teacher by day and teacher by night for many years. She has
                 thrived and survived in countless environments that have made her an expert on adversity, adaptability,
                 attentive, and amiable. These tools have brought her great success in the teaching world, but she now
                 has her sights set on the world of coding and the relativity it has when it comes to being creative and
