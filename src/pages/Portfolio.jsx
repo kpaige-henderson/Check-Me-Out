@@ -4,9 +4,15 @@ import Projects from '../components/Projects';
 import HipHop from '../public/HipHop.png';
 import FineTune from '../public/FineTune.png';
 import WingingIt from '../public/WingingIt.png';
+import Feastbook from '../public/Feastbook';
 
 
 const deployedProjects = [
+    {
+        title: "FeastBook",
+        imageUrl: Feastbook,
+        link: "https://feastbook.onrender.com/",
+    },
     {
         title: "Hip Hop Quiz",
         imageUrl: HipHop,
@@ -22,6 +28,7 @@ const deployedProjects = [
         imageUrl: WingingIt,
         link: "https://lepidopterarium-ac74b3d1a334.herokuapp.com/",
     },
+
 
 ];
 
